@@ -10,8 +10,8 @@ import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
 
 object ServerConfig {
-    //const val DEFAULT_URL = "http://192.168.1.68:8080/" para telefono fisico
-    const val DEFAULT_URL = "http://10.0.2.2:8080/"  //para emulador de android
+    const val DEFAULT_URL = "http://192.168.1.68:8080/"
+    //const val DEFAULT_URL = "http://10.0.2.2:8080/"  //para emulador de android
 
     @Volatile
     var baseUrl: String = DEFAULT_URL
